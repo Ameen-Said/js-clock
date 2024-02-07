@@ -1,0 +1,49 @@
+body{
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEchhPkoPMqnxTDbx6VG1Bwjk6a2EAdlSjO3LCadF_Az7czpLw92XOlVqMvdca8WGwFViJ0i2HznEHStPwqh4ylDdCqs3hthsk89bUqQyS0NYYLrNpS41VWUIMn2qwkdpqzKzQNHGUz2v1ay31h76mtZbEk67_lZdYvd4LYZceF8R_yKuXeQTXdBca/d/lakeview.jpg");
+
+    background-size:cover ;
+  
+}
+
+.container{
+    border: 20px solid rgba(0, 0, 0, 0.475);
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 6%;
+}
+
+.clock-face{
+    position: relative;
+    width: 95%;
+    height: 95%;
+    transform: translateY(-3px);
+    background-image: url("https://files.cults3d.com/uploaders/13919988/illustration-file/a98fa221-4625-4fb4-9b0b-e0e2b209f071/Num.png");
+    background-size: cover;
+    border-radius: 40%;
+    top: 20px;
+    left: 10px;
+    
+ 
+}
+
+.hand{
+    width: 50%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.714);
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.08, 2.41, 0.58, 1);
+}
+
+.hour-hand{
+    height: 10px;
+}
